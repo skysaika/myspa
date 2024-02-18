@@ -43,6 +43,8 @@ INSTALLED_APPS = [
 
     'users.apps.UsersConfig',
     'materials.apps.MaterialsConfig',
+
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
