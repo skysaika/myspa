@@ -19,6 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('users.urls', namespace='users')),  # маршрут до приложения users
-    path('materials/', include('materials.urls', namespace='materials')),  # маршрут до приложения materials
+    # path('', include('users.urls', namespace='users')),  # маршрут до приложения users
+    path('', include('materials.urls', namespace='materials')),  # маршрут до приложения materials
 ]
